@@ -1,0 +1,31 @@
+# Local Python environments and caches
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local model and training binaries
+models/
+**/checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Nested upstream repository metadata
+LlamaFactory/.git/
+LlamaFactory/
+
+# Local secrets and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store

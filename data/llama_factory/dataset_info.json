@@ -1,0 +1,26 @@
+{
+  "muleguard_train": {
+    "file_name": "muleguard_train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "muleguard_validation": {
+    "file_name": "muleguard_validation.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "muleguard_test": {
+    "file_name": "muleguard_test.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}
