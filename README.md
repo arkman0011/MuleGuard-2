@@ -16,7 +16,7 @@ MuleGuard 2 is an experimental LLM-based classification pipeline for identifying
 ```text
 data/
   raw/                 Original account feature CSV
-  processed/           Train, validation, and test CSV files
+  processed/           Train and validation CSV files
   llama_factory/       LLaMA Factory JSON datasets and dataset_info.json
 configs/               Fine-tuning YAML configuration
 scripts/               Dataset preparation, balancing, and evaluation scripts
